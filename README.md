@@ -1,7 +1,6 @@
 # Bundle-test
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This example use the [ember-cli-lazy-load](https://github.com/duizendnegen/ember-cli-lazy-load) addon. 
 
 ## Prerequisites
 

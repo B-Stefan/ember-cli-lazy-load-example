@@ -1,10 +1,13 @@
 /*jshint node:true*/
 /* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var EmberApp = require("ember-cli-lazy-load/ember-app");
+var bundles = require("./config/bundles")();
 
 module.exports = function(defaults) {
+
   var app = new EmberApp(defaults, {
     // Add options here
+    bundles: bundles
   });
 
   // Use `app.import` to add additional libraries to the generated

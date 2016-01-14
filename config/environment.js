@@ -1,7 +1,8 @@
 /* jshint node: true */
-
+var bundles = require("./bundles");
 module.exports = function(environment) {
   var ENV = {
+    bundles: bundles(environment),
     modulePrefix: 'bundle-test',
     environment: environment,
     baseURL: '/',
